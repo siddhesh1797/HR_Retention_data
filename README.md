@@ -34,5 +34,6 @@ We've used quite a few models to check which fits best on our data. Models used 
 •	XGBoost Classifier
 
 Since this is binary classification problem, we use the following metrics:
+
 Confusion matrix - For getting a better clarity of the no of correct/incorrect predictions by the model
 ROC-AUC - It considers the rank of the output probabilities and intuitively measures the likelihood that model can distinguish between a positive point and a negative point. (Note: ROC-AUC is typically used for binary classification only). We will use AUC to select the best model.
